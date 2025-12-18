@@ -1,0 +1,112 @@
+legal_ner_project/
+│
+├── main_launcher/
+│   ├── main.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── run_model.py
+│   │   ├── theme.py
+│   │   └── animations.py
+│   ├── assets/
+│   │   ├── logo.png
+│   │   └── icons/
+│   ├── requirements.txt
+│   └── README.md
+│
+│
+├── crf_model_training/
+│   ├── main.py
+│   ├── models/
+│   │   └── crf_model.py
+│   ├── data/
+│   │   ├── train.txt
+│   │   └── test.txt
+│   ├── utils/
+│   │   ├── preprocess.py
+│   │   ├── metrics.py
+│   │   └── visualization.py
+│   ├── outputs/
+│   │   ├── crf_model.pkl
+│   │   ├── results.json
+│   │   └── annotated_output.txt
+│   ├── requirements.txt
+│   └── README.md
+│
+│
+├── bilstm_model_training/
+│   ├── main.py
+│   ├── models/
+│   │   └── bilstm_model.py
+│   ├── data/
+│   │   ├── train.txt
+│   │   └── test.txt
+│   ├── utils/
+│   │   ├── preprocess.py
+│   │   ├── metrics.py
+│   │   └── visualization.py
+│   ├── outputs/
+│   │   ├── bilstm_model.h5
+│   │   ├── results.json
+│   │   └── annotated_output.txt
+│   ├── requirements.txt
+│   └── README.md
+│
+│
+├── bilstm_crf_model_training/
+│   ├── main.py
+│   ├── models/
+│   │   └── bilstm_crf_model.py
+│   ├── data/
+│   │   ├── train.txt
+│   │   └── test.txt
+│   ├── utils/
+│   │   ├── preprocess.py
+│   │   ├── metrics.py
+│   │   └── visualization.py
+│   ├── outputs/
+│   │   ├── bilstm_crf_model.h5
+│   │   ├── results.json
+│   │   └── annotated_output.txt
+│   ├── requirements.txt
+│   └── README.md
+│
+│
+├── DistilBERT_Model_training/
+│   ├── main.py
+│   ├── models/
+│   │   └── distilbert_model.py
+│   ├── data/
+│   │   ├── train.txt
+│   │   └── test.txt
+│   ├── utils/
+│   │   ├── preprocess.py
+│   │   ├── metrics.py
+│   │   └── visualization.py
+│   ├── outputs/
+│   │   ├── distilbert_model/
+│   │   ├── results.json
+│   │   └── annotated_output.txt
+│   ├── requirements.txt
+│   └── README.md
+│
+│
+├── Legal_NER_ALBERT/
+│   ├── main.py
+│   ├── models/
+│   │   └── albert_model.py
+│   ├── data/
+│   │   ├── train.txt
+│   │   └── test.txt
+│   ├── utils/
+│   │   ├── preprocess.py
+│   │   ├── metrics.py
+│   │   └── visualization.py
+│   ├── outputs/
+│   │   ├── albert_ner_model/
+│   │   ├── results.json
+│   │   └── annotated_output.txt
+│   ├── requirements.txt
+│   └── README.md
+│
+│
+└── README.md   # Main project documentation
